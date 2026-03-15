@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact & Request</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: url("person.jpg") no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.75);
+            min-height: 100vh;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: coral;
+            margin-bottom: 20px;
+            font-size: 40px;
+        }
+
+        h2 {
+            color: #ffcc00;
+            text-align: center;
+            font-size: 22px;
+            margin: 10px 0;
+        }
+
+        /* Back button */
+        .btn {
+            display: inline-block;
+            padding: 8px 20px;
+            margin: 10px 0;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 20px;
+            background: coral;
+            color: #fff;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #ff704d;
+            transform: scale(1.05);
+        }
+
+        /* Form styling */
+        form {
+            max-width: 500px;
+            margin: 40px auto;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.6);
+        }
+
+        label {
+            display: block;
+            font-size: 18px;
+            margin-bottom: 6px;
+            color: #fff;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+            background: coral;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background: #ff704d;
+            transform: scale(1.02);
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: grey;
+            margin: 40px auto;
+            width: 80%;
+        }
+
+        /* Feedback button */
+        .feedback-btn {
+            display: block;
+            width: 200px;
+            margin: 30px auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+
+        <!-- Back Button -->
+        <a href="new thirdpage.html" class="btn">Back</a>
+
+        <!-- Request Form -->
+        <h1>Add your Request!!!</h1>
+        <form>
+            <label>NAME:</label>
+            <input type="text">
+
+            <label>PHONE NO:</label>
+            <input type="number">
+
+            <label>EMAIL:</label>
+            <input type="email">
+
+            <label>REQUIREMENT:</label>
+            <input type="text">
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <h1>Contact us</h1>
+        <h2>Address: Flat no:-201, Advance arcade, Sector:-4, Khanda colony, New panvel</h2>
+        <h2>Phone no:- 9137587475 / 9867343638</h2>
+        <h2>Email Id:- ram04pawar@gmail.com</h2>
+
+        <!-- Feedback Button -->
+        <a href="new form.html" class="btn feedback-btn">FEEDBACK</a>
+
+    </div>
+</body>
+</html>

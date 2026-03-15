@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MY WEBSITE</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: url("web developments edits.jpg") no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        /* Overlay for readability */
+        .overlay {
+            background: rgba(0, 0, 0, 0.7);
+            min-height: 100vh;
+        }
+
+        /* Navigation bar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background: transparent;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav h2 {
+            margin: 0;
+            font-size: 22px;
+            color: coral;
+        }
+
+        nav a {
+            text-decoration: none;
+        }
+
+        nav img {
+            width: 28px;
+            height: 28px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        nav img:hover {
+            transform: scale(1.2);
+        }
+
+        /* Hero Section */
+        header {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 55px;
+            color: coral;
+            border: 2px solid coral;
+            display: inline-block;
+            padding: 15px 30px;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            margin-bottom: 20px;
+        }
+
+        marquee {
+            font-size: 26px;
+            font-weight: bold;
+            color: yellow;
+            margin-top: 15px;
+        }
+
+        /* Info Section */
+        .content {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 30px;
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        .content h2 {
+            color: #fff;
+        }
+
+        .content p {
+            margin-bottom: 25px;
+        }
+
+        hr {
+            border: 1px solid green;
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        /* Footer Section */
+        aside {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        aside h3 {
+            color: yellow;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        aside h4 {
+            color: #4da6ff;
+            font-size: 20px;
+            margin: 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 40px;
+                padding: 10px 20px;
+            }
+            marquee {
+                font-size: 20px;
+            }
+            nav {
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        
+        <!-- Navigation -->
+        <nav>
+            <h2>Decode-X Technologies</h2>
+            <a href="new second page.html">
+                <img src="icons8-menu-24.png" alt="Menu">
+            </a>
+        </nav>
+
+        <!-- Hero -->
+        <header>
+            <h1>Welcome to<br> Decode-X <br>Technologies</h1>
+            <marquee>WE Design & Develope Websites!!!</marquee>
+        </header>
+
+        <!-- Content -->
+        <div class="content">
+            <h2>
+                Decode-X Technologies team consists of professionals with excellent technical and specialized 
+                qualifications in their respective sphere of responsibility, gained through working with reputed 
+                organizations.
+            </h2>
+            <hr>
+            <h2 style="text-align:right;">
+                Decode-X Technologies Owner met stringent selection and recruitment criteria and been put through 
+                the company's in-house and on-job training, and continuous training from our principals.
+            </h2>
+            <hr>
+        </div>
+
+        <!-- Footer -->
+        <aside>
+            <h3>Get your website now!</h3>
+            <h4>DECODEX TECHNOLOGIES</h4>
+        </aside>
+
+    </div>
+</body>
+</html>
+
